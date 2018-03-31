@@ -22,8 +22,6 @@ function initGrid() {
   }
 }
 
-let allowNeighbors = false ;
-
 function getNeighbors(i, j) {
   let res = [] ;
   if(i > 0) {
